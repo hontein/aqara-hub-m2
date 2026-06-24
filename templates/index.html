@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Графики датчиков Aqara Hub M2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Aqara Hub M2 — мониторинг датчиков</h1>
+        <p class="subtitle">Пример красивых графиков температуры и влажности</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Температура</h2>
+            <canvas id="tempChart"></canvas>
+        </section>
+
+        <section class="card">
+            <h2>Влажность</h2>
+            <canvas id="humChart"></canvas>
+        </section>
+    </main>
+</div>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
+
