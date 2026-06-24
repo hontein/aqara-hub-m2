@@ -1,0 +1,1 @@
+# aqara-hub-m2
