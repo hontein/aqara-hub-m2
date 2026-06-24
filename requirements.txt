@@ -4,5 +4,6 @@ Jinja2==2.8      # без async, совместима с Python 3.4
 MarkupSafe==1.1.1
 Werkzeug==0.16.1
 click==7.1.2
+paho-mqtt==1.6.1
 
 
